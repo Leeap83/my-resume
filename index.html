@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="">
+    <script src="https://kit.fontawesome.com/b42b424358.js" crossorigin="anonymous"></script>
+    <script src="jquery-3.5.1.min.js"></script>
+    <title>My Resume</title>
+</head>
+
+<body>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#">{<span class="text-pink">LP</span>} Lee Powell</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ms-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#skills">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-subheading">Welcome, I am Lee!</div>
+            <div class="header-heading text-uppercase">It's Nice To Meet You</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#skills">Tell Me More</a>
+        </div>
+    </header>
+
+    <!-- Skills-->
+    <section class="page-section" id="skills">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Skills</h2>
+                <div class="row">
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-4">
+                        <h4 class="text-pink uppercase">What do I do?</h4>
+                        <p>
+                            I'm a skilled Full Stack Developer with a wealth of diverse life and technical
+                            experience that I bring to every project.
+                        </p>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-4">
+                        <h4 class="text-pink uppercase">How do I do it?</h4>
+                        <p>
+                            I follow form as well as function. I know that the aesthetics of effective design combined
+                            with application speed, security and reliability combine to create a great user experience.
+                        </p>
+                    </div>
+                    <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-4">
+                        <h4 class="text-pink uppercase">Why hire me?</h4>
+                        <p>
+                            I work quickly and effectively in getting things built and working across the stack.
+                            I'm an excellent communicator who thrives in bright and enthusiastic teams and I'm
+                            also a self starter when working solo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <div class="skills-img">
+                        <img class="mx-auto" src="/assets/img/front-end.jpg" alt="Front-End Image">
+                        <h4 class="text-pink my-3">Front-End</h4>
+                        <p>I'm a skilled in User Experience Design using the trinity of
+                            HTML/CSS/Javascript. I utilise CSS Frameworks such as Bootstrap and Materialize for
+                            developing responsive and mobile-first websites.
+                        </p>
+                        <ul class="text-muted ">
+                            <li class="btn btns">HTML/HTML5</li>
+                            <li class="btn btns">CSS</li>
+                            <li class="btn btns">Javascript/JQuery</li>
+                            <li class="btn btns">Bootstrap/Materialize</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skills-img">
+                        <img class="mx-auto" src="/assets/img/back-end.jpg" alt="Back-End Image">
+                        <h4 class="text-pink my-3">Back-End</h4>
+                        <p>I Specialize in data-driven web applications. Many of my projects utilise
+                            document-based data. I use Python and Django in conjunction with MongoDB to process and
+                            present
+                            information.
+                        </p>
+                        <ul class="text-muted">
+                            <li class="btn btns">Python/Django</li>
+                            <li class="btn btns">Flask</li>
+                            <li class="btn btns">MongoDB</li>
+                            <li class="btn btns">SQL/NoSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio Grid-->
+    <section class="page-section bg-pink" id="portfolio">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Portfolio</h2>
+                <h3 class="section-subheading">Here are a selection of my work.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="port-img img-fluid" src="/assets/img/lbk.png" alt="Website" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">LBK</div>
+                            <div class="portfolio-caption-subheading text-muted">Burger Ordering Website</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="port-img img-fluid" src="assets/img/mdb.png" alt="website" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Movie Review</div>
+                            <div class="portfolio-caption-subheading text-muted">Movie Database</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="port-img img-fluid" src="/assets/img/wheres-nxt.png" alt="website" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Where's Next?</div>
+                            <div class="portfolio-caption-subheading text-muted">Holiday Recommendation Website</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="/assets/img/villa-designs.png" alt="website" />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Villa Designs</div>
+                            <div class="portfolio-caption-subheading text-muted">Handcrafted Gifts & Bespoke Furniture
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0"> -->
+                <!-- Portfolio item 5-->
+                <!-- <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"></div>
+                            <div class="portfolio-caption-subheading text-muted"></div>
+                        </div>
+                    </div> -->
+                <!-- </div>
+                <div class="col-lg-4 col-sm-6"> -->
+                <!-- Portfolio item 6-->
+                <!-- <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading"></div>
+                            <div class="portfolio-caption-subheading text-muted"></div>
+                        </div>
+                    </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">My Personal Journey.</h3>
+
+                <button class="experience btn btn-primary btn-l text-uppercase" id="education">
+                    <i class="fas fa-graduation-cap"></i> Education
+                </button>
+                <button class="experience btn btn-primary btn-l text-uppercase p-2" id="work">
+                    <i class="fas fa-briefcase"></i> Work
+                </button>
+            </div>
+            <div class="visible m-4" id="myEducation">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2020-2021</h4>
+                                <h4 class="subheading">Full Stack Web Development </h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Completed Diploma in software development from the Code Institute
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2002-2005</h4>
+                                <h4 class="subheading">BA Hons Film & Media</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Studied Film & Media studies at the University of Central
+                                    Lancashire</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2000-2002</h4>
+                                <h4 class="subheading">A Levels</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Studied Film, Media, Psychology at college</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>1999-2000</h4>
+                                <h4 class="subheading">GNVQ Business Studies</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Awarded a Merit in Business Studies </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>1994-1999</h4>
+                                <h4 class="subheading">GCSE</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">GCSE including Maths, Science & English</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of my
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden" id="myWork">
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>1999-2002</h4>
+                                <h4 class="subheading">RAF Shawbury</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Was employed in the kitchen on the local RAF base.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2005-2007</h4>
+                                <h4 class="subheading">Marks & Spencer</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">During University I took on a part time Job at Marks & Spencer,
+                                    this continued after University.
+                                    Customer Advisor for M&S in the Food hall in a number of stores in the West
+                                    Midlands, dealing with customers and
+                                    complaints, assisting in the opening of new stores in the region, training new
+                                    staff, overseeing the grocery department in one of the new stores,
+                                    analyzing stock reports and displaying stock/merchandise to improve sales.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2007-2020</h4>
+                                <h4 class="subheading">Whittingham Riddell Chartered Accountants</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p class="text-muted">Worked for of a large frim of accountants in a finance
+                                    administrator role which involved
+                                    sales ledger, database management, development of the practice management software,
+                                    data analysis and reporting.
+                                    I left this role to pursue a career in Web Development
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <h4>
+                                Be Part
+                                <br />
+                                Of my
+                                <br />
+                                Story!
+                            </h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *"
+                                data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Phone number input-->
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
+                                data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message" placeholder="Your Message *"
+                                data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        To activate this form, sign up at
+                        <br />
+                        <a
+                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage">
+                    <div class="text-center text-danger mb-3">Error sending message!</div>
+                </div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-secondary btn-xl text-uppercase" id="submitButton"
+                        type="submit">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; 2021</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="btn btn-social mx-2" href="#!"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="fas fa-times text-black"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class=" text-black text-uppercase">Lee's Burger Kitchen</h2>
+                                <p class="item-intro text-muted">A food ordering Website.</p>
+                                <div>
+                                    <button class="desktop btn btn-primary btn-l text-uppercase" id="desktop">
+                                        <i class="fas fa-desktop"></i> Desktop
+                                    </button>
+                                    <button class="mobile btn btn-primary btn-l text-uppercase p-2" id="mobile">
+                                        <i class="fas fa-mobile"></i>> Mobile
+                                    </button>
+                                </div>
+                                <div class="visible m-4" id="myDesktop">
+                                    <video autoplay loop muted inline width="600px">
+                                        <source src="/assets/mp4/lbk-dt.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="hidden" id="myMobile">
+                                    <video autoplay loop muted inline width="200px" height="400px">
+                                        <source src="/assets/mp4/lbk-mob.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="text-black">Use this area to describe your project. Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo! </p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://lees-burger-kitchen.herokuapp.com/" target="_blank"
+                                            class="text-black"><strong>Website</strong></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Leeap83/Lee-s_Burger_Kitchen" target="_blank"
+                                            class="text-black"><strong>Code</strong></a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="fas fa-times text-black"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-black text-uppercase">Movie Review</h2>
+                                <p class="item-intro text-muted">A Movie Database.</p>
+                                <div>
+                                    <button class="desktop btn btn-primary btn-l text-uppercase" id="desktop2">
+                                        <i class="fas fa-desktop"></i> Desktop
+                                    </button>
+                                    <button class="mobile btn btn-primary btn-l text-uppercase p-2" id="mobile2">
+                                        <i class="fas fa-mobile"></i>> Mobile
+                                    </button>
+                                </div>
+                                <div class="visible m-4" id="myDesktop2">
+                                    <video autoplay loop muted inline width="600px">
+                                        <source src="/assets/mp4/moviedb.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="hidden" id="myMobile2">
+                                    <video autoplay loop muted inline width="200px" height="400px">
+                                        <source src="/assets/mp4/mdb-mob.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="text-black">Use this area to describe your project. Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="http://the-snap-movie-review.herokuapp.com/index" target="_blank"
+                                            class="text-black"><strong>Website</strong></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Leeap83/Movie-Database" target="_blank"
+                                            class="text-black"><strong>Code</strong></a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="fas fa-times text-black"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-black text-uppercase">Where's Next?</h2>
+                                <p class="item-intro text-muted">Holiday Destination Finder.</p>
+                                <div>
+                                    <button class="desktop btn btn-primary btn-l text-uppercase" id="desktop3">
+                                        <i class="fas fa-desktop"></i> Desktop
+                                    </button>
+                                    <button class="mobile btn btn-primary btn-l text-uppercase p-2" id="mobile3">
+                                        <i class="fas fa-mobile"></i>> Mobile
+                                    </button>
+                                </div>
+                                <div class="visible m-4" id="myDesktop3">
+                                    <video autoplay loop muted inline width="600px">
+                                        <source src="/assets/mp4/wheres-nxt-desktop.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="hidden" id="myMobile3">
+                                    <video autoplay loop muted inline width="200px" height="400px">
+                                        <source src="/assets/mp4/whers-nxt-mob.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="text-black">Use this area to describe your project. Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://leeap83.github.io/Where-s-Next-/" target="_blank"
+                                            class="text-black"><strong>Website</strong></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Leeap83/Where-s-Next-" target="_blank"
+                                            class="text-black"><strong>Code</strong></a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="fas fa-times text-black"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-black text-uppercase">Villa Designs</h2>
+                                <p class="item-intro text-muted">Bespoke Furniture and handcrafted Gifts.</p>
+                                <div>
+                                    <button class="desktop btn btn-primary btn-l text-uppercase" id="desktop4">
+                                        <i class="fas fa-desktop"></i> Desktop
+                                    </button>
+                                    <button class="mobile btn btn-primary btn-l text-uppercase p-2" id="mobile4">
+                                        <i class="fas fa-mobile"></i>> Mobile
+                                    </button>
+                                </div>
+                                <div class="visible m-4" id="myDesktop4">
+                                    <video autoplay loop muted inline width="600px">
+                                        <source src="/assets/mp4/villa-designs-desktop.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <div class="hidden" id="myMobile4">
+                                    <video autoplay loop muted inline width="200px" height="400px">
+                                        <source src="/assets/mp4/villa-designs-mob.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="text-black">Use this area to describe your project. Lorem ipsum dolor sit
+                                    amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <a href="https://leeap83.github.io/Villa-Designs/" target="_blank"
+                                            class="text-black"><strong>Website</strong></a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/Leeap83/Villa-Designs" target="_blank"
+                                            class="text-black"><strong>Code</strong></a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="fas fa-times text-black"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Website:</strong><a href=""></a>
+                                    </li>
+                                    <li>
+                                        <strong>Code:</strong><a href=""></a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><i class="fas fa-times text-black"></i></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <ul class="list-inline">
+                                    <li>
+                                        <strong>Website:</strong><a href=""></a>
+                                    </li>
+                                    <li>
+                                        <strong>Code:</strong><a href=""></a>
+                                    </li>
+                                </ul>
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
+                                    type="button">
+                                    <i class="fas fa-times me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- main js -->
+    <script src="/assets/js/main.js"></script>
+</body>
+
+</html>
