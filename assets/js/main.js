@@ -44,23 +44,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
-// Toggle between Education & Work
-
-var educationDiv = document.getElementById('myEducation');
-var workDiv = document.getElementById('myWork');
-
-var educationBtn = document.getElementById('education');
-var workBtn = document.getElementById('work');
-
-educationBtn.onclick = function () {
-    workDiv.setAttribute('class', 'hidden');
-    educationDiv.setAttribute('class', 'visible');
-};
-
-workBtn.onclick = function () {
-    educationDiv.setAttribute('class', 'hidden');
-    workDiv.setAttribute('class', 'visible');
-};
 
 // portfolio 1
 var lbkdesktopDiv = document.getElementById('myDesktop');
