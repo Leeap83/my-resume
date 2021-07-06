@@ -116,7 +116,7 @@ p {
 }
 
 .btn-primary:hover {
-    background-color: #212529;
+    background-color: rgba(211, 63, 223, 0.5);
     border-color: #fff;
 }
 
@@ -135,7 +135,6 @@ p {
 .page-section .section-subheading.h3 {
     font-size: 1rem;
     font-weight: 400;
-    font-style: italic;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 4rem;
 }
@@ -260,7 +259,14 @@ header.header {
 
 header.header .header-subheading {
     font-size: 1.5rem;
-    font-style: italic;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+header.header .header-subheading2 {
+    font-size: 1.4rem;
     line-height: 1.5rem;
     margin-bottom: 25px;
     font-family: 'Poppins', sans-serif;
@@ -282,7 +288,6 @@ header.header .header-heading {
 
     header.header .header-subheading {
         font-size: 2.25rem;
-        font-style: italic;
         line-height: 2.25rem;
         margin-bottom: 2rem;
     }
@@ -446,6 +451,10 @@ section .time-line {
     padding: 3rem;
 }
 
+.section-subheading .about {
+    margin-bottom: 0;
+}
+
 .wrapper {
     max-width: 1080px;
     margin: 50px auto;
@@ -457,7 +466,7 @@ section .time-line {
     position: absolute;
     height: 100%;
     width: 4px;
-    background: #d33fdf;
+    background: rgba(211, 63, 223, 0.5);
     left: 50%;
     top: 20px;
     transform: translateX(-50%);
@@ -477,7 +486,7 @@ section .time-line {
 
 
 .wrapper .row section {
-    background: #d33fdf;
+    background: rgba(211, 63, 223, 0.5);
     border-radius: 5px;
     width: calc(50% - 40px);
     padding: 20px;
@@ -506,7 +515,7 @@ section .time-line {
 .row section .icon,
 .center-line .scroll-icon {
     position: absolute;
-    background: #b437bd;
+    background: #97309e;
     height: 40px;
     width: 40px;
     text-align: center;
@@ -514,7 +523,7 @@ section .time-line {
     border-radius: 50%;
     color: #fff;
     font-size: 17px;
-    box-shadow: 0 0 0 4px #d33fdf, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0 0 4px #c534cf, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 
 .center-line .scroll-icon {
