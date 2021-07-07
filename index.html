@@ -41,7 +41,7 @@
     </nav>
     <!-- header -->
     <header class="header">
-        <div class="container">
+        <div class="container container-header">
             <div class="header-subheading">Welcome, my name is Lee</div>
             <div class="header-subheading2">I am a Full Stack Web Developer</div>
             <div class="header-heading text-uppercase">It's Nice To Meet You</div>
@@ -139,7 +139,7 @@
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Lee's Burger Kitchen</div>
                             <div class="portfolio-caption-subheading text-muted">
-                                FullStack application using HTML, CSS, Javascript, Jquey, Django, Heroku, Postgres
+                                FullStack application using HTML, CSS, Javascript, JQuey, Django, Heroku, Postgres
                             </div>
                         </div>
                     </div>
@@ -195,22 +195,24 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0"> -->
-                <!-- Portfolio item 5-->
-                <!-- <div class="portfolio-item">
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/tetris.png" alt="website" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading"></div>
-                            <div class="portfolio-caption-subheading text-muted"></div>
+                            <div class="portfolio-caption-heading">Tetris Game</div>
+                            <div class="portfolio-caption-subheading text-muted">
+                                Interactive Frontend application using HTML, CSS and JavaScript.
+                            </div>
                         </div>
-                    </div> -->
-                <!-- </div>
-                <div class="col-lg-4 col-sm-6"> -->
+                    </div>
+                </div>
+                <!-- <div class="col-lg-4 col-sm-6"> -->
                 <!-- Portfolio item 6-->
                 <!-- <div class="portfolio-item">
                         <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
@@ -254,7 +256,7 @@
                         </div>
                         <p>
                             Took voluntary redundancy from last employment and retrained as a Full Stack Web Developer,
-                            completing a diploma in Full Stack Web Development from the Code Institue.
+                            completing a diploma in Full Stack Web Development from the Code Institute.
                         </p>
                     </section>
                 </div>
@@ -284,7 +286,7 @@
                             Working as a Customer Advisor for M&S in the Food hall in a number of stores in the West
                             Midlands, dealing with customers and complaints, assisting in the opening of new stores in
                             the region, training new staff, overseeing the grocery department in one of the new stores,
-                            analyzing stock reports and displaying stock/merchandise to improve sales.
+                            analysing stock reports and displaying stock/merchandise to improve sales.
                         </p>
                     </section>
                 </div>
@@ -358,8 +360,10 @@
         <div class="container contact-form">
             <div class="text-center">
                 <h2 class="section-heading text-white text-uppercase">Contact Us</h2>
-                <h3 class="section-subheading text-white">If you would like to contact me regarding a project idea or a
-                    recruitement opportunity then please feel free to contact me.</h3>
+                <h3 class="section-subheading text-white">
+                    If you would like to contact me regarding a project idea or a
+                    recruitment opportunity then please feel free to contact me.
+                </h3>
             </div>
             <form action="https://formspree.io/f/mrgrlldd" method="POST" class="form">
                 <div class="row align-items-stretch mb-5">
@@ -681,19 +685,25 @@
                         <div class="col-lg-8">
                             <div class="modal-body">
                                 <!-- Project details-->
-                                <h2 class="text-uppercase">Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/5.jpg" alt="..." />
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
-                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
-                                    nostrum, reiciendis facere nemo!</p>
+                                <h2 class="text-black text-uppercase">Tetris Game</h2>
+                                <p class="item-intro text-muted">Desktop version of classic Gameboy game.</p>
+                                <div class="visible m-4" id="myDesktop5">
+                                    <video autoplay loop muted inline width="600px">
+                                        <source src="assets/mp4/tetris.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+                                <p class="text-black">
+                                    This is a modified version of Ania Kubow's Youtube tutorial of the classic game of
+                                    Tetris. Using HTML, CSS and JavaScript.
+                                </p>
                                 <ul class="list-inline">
                                     <li>
-                                        <strong>Website:</strong><a href=""></a>
+                                        <a href="https://leeap83.github.io/Tetris/" target="_blank"
+                                            class="text-black"><strong>Website</strong></a>
                                     </li>
                                     <li>
-                                        <strong>Code:</strong><a href=""></a>
+                                        <a href="https://github.com/Leeap83/Tetris" target="_blank"
+                                            class="text-black"><strong>Code</strong></a>
                                     </li>
                                 </ul>
                                 <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal"
