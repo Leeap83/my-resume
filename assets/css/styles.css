@@ -447,6 +447,10 @@ header.header .header-heading {
 }
 
 /* About */
+.about-me {
+    padding-bottom: 40px;
+}
+
 section .time-line {
     padding: 3rem;
 }
